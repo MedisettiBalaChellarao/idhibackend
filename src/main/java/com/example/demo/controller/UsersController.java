@@ -8,7 +8,6 @@ import com.example.demo.repository.UserRepository;
 
 import java.util.List;
 
-@CrossOrigin(origins = "*") // allow frontend
 @RestController
 @RequestMapping("/api/users")
 public class UsersController {
