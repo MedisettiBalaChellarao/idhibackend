@@ -14,9 +14,10 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/quizzes")
-@CrossOrigin(origins = "*")
+
 public class QuizController {
 
   private final QuizService quizService;
